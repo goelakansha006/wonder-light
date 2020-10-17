@@ -156,6 +156,70 @@
     }
 }
 
+.skills-tag{
+    margin-top: 8px;display: flex; justify-content: space-around; padding: 8px;
+    @media screen and (max-width:450px){flex-direction: column; }
+
+    .skill-tag-card{
+        display: flex; width: 50%; justify-content: space-around;
+        @media screen and (max-width:450px){width: 100%; }
+    }
+}
+
+.big_icon{
+    height: 46px;
+    width: 46px;
+    font-size: 46px;
+}
+
+.icon_text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hexagon {
+    width: 100px;
+    height: 55px;
+    position: relative;
+    margin-top: 50px;
+  }
+  
+  .hexagon, 
+  .hexagon:before, 
+  .hexagon:after {
+    background: #eec4c3;
+    box-shadow: 0 0 10px rgba(0,0,0,0.8);   
+  }
+  
+  .hexagon:before,
+  .hexagon:after {
+    content: "";
+    position: absolute;
+    left: 22px;
+    width: 57px;
+    height: 57px;
+    transform: rotate(145deg) skew(22.5deg);
+  }
+  
+  .hexagon:before {
+    top: -29px;
+  }
+  
+  .hexagon:after {
+    top: 27px;
+  }
+  
+  .hexagon span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 55px;
+    background: #eec4c3;
+    z-index: 1;
+  }
+
 #timeline-experience{position:relative;margin-top: 8px;}
 #timeline-experience::before{content:'';position:absolute;top:0;bottom:23px;left:50%;height:99.5%;width:4px;opacity:0.3;background:#616161;}
 .timeline-block{position:relative;}
