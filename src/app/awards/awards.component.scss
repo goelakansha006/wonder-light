@@ -156,7 +156,7 @@
     }
 }
 
-#timeline-experience{position:relative;margin-top: 8px;}
+#timeline-experience{position:relative;}
 #timeline-experience::before{content:'';position:absolute;top:0;bottom:23px;left:50%;height:99.5%;width:4px;opacity:0.3;background:#616161;}
 .timeline-block{position:relative;}
 .timeline-block::after{clear:both;content:"";display:table;}

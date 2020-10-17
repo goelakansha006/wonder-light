@@ -4,16 +4,18 @@
       <mat-card class="round-image">
         <img src="assets/my_image.jpg" width="100px" alt="my image"  />
       </mat-card>
+      <div style="display: flex; flex-wrap: wrap;">
+        <div class="linkedin-url">
+          <span class="mat-title">Akansha Goyal</span>
+          <p class="mat-subheading-1">Web Developer</p>
+          <button mat-button class="linkedin-button">LINKED IN</button>
+        </div>
+        <div class="phone-details">
+          <div style="display: flex;"><mat-icon>call</mat-icon> 9540110721</div>
+          <div style="display: flex;"><mat-icon>mail_outline</mat-icon> goelakansha006@gmail.com</div>
+        </div>
+      </div>
       
-      <div class="linkedin-url">
-        <span class="mat-title">Akansha Goyal</span>
-        <p class="mat-subheading-1">Web Developer</p>
-        <button mat-button class="linkedin-button">LINKED IN</button>
-      </div>
-      <div class="phone-details">
-        <div style="display: flex;"><mat-icon>call</mat-icon> 9540110721</div>
-        <div style="display: flex;"><mat-icon>mail_outline</mat-icon> goelakansha006@gmail.com</div>
-      </div>
     </mat-card>
     
   </div>
@@ -28,7 +30,9 @@
       <p>Work</p>
       <mat-icon style="margin-top: 8px; cursor: pointer;" routerLink="/awards">military_tech</mat-icon>
       <p>Awards</p>
-      <mat-icon style="margin-top: 8px; cursor: pointer;">insert_drive_file</mat-icon>
+      <mat-icon style="margin-top: 8px; cursor: pointer;" (click)="downloadFile()">insert_drive_file
+        
+      </mat-icon>
       <p>Resume</p>
     </mat-card>
     <div class="main-section">

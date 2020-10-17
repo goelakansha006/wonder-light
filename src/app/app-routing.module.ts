@@ -22,7 +22,9 @@ const routes: Routes = [
   {
     path: 'awards',
     component: AwardsComponent
-  }
+  },
+
+
 ];
 
 @NgModule({

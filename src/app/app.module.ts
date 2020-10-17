@@ -16,7 +16,7 @@ import { AwardsComponent } from './awards/awards.component';
     AppComponent,
     AboutComponent,
     ExperienceComponent,
-    AwardsComponent
+    AwardsComponent,
   ],
   imports: [
     BrowserModule,
