@@ -10,6 +10,6 @@ export class AppComponent {
   title = 'portfolio';
 
   downloadFile() {
-    window.open('/assets/Akansha_Resume.pdf', '_blank');
+    window.open('assets/Akansha_Resume.pdf', '_blank');
     }
 }
